@@ -14,6 +14,10 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+        buildFeatures {
+            viewBinding = true
+        }
     }
 
     buildTypes {
@@ -49,3 +53,4 @@ dependencies {
     implementation(libs.room.runtime)
     annotationProcessor( libs.room.compiler)
 }
+
