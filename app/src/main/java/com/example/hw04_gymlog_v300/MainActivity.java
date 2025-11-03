@@ -17,7 +17,7 @@ import java.util.Locale;
 public class MainActivity extends AppCompatActivity {
 
     com.example.hw04_gymlog_v300.databinding.ActivityMainBinding binding;
-    private static final String TAG = "DAC_GYMLOG";
+    public static final String TAG = "DAC_GYMLOG";
 
     String mExercise = "";
     double mWeight = 0.0;
